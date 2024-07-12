@@ -1,0 +1,50 @@
+<div id="rectangle-left">
+  <div id="triangle-left">
+  </div>
+</div>
+<div id="rectangle-right">
+  <div id="triangle-right">
+  </div>
+</div>
+
+<style>
+  body {
+    background-color: #243d83;
+  }
+  #rectangle-left {
+    width: 100px;
+    height: 100px;
+    background: #6592cf;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50%;
+  }
+ #triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #243d83;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    position: absolute;
+    left: 30%;
+  }
+    #rectangle-right {
+    width: 100px;
+    height: 100px;
+    background: #6592cf;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 50%;
+  }
+  #triangle-right{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #243d83;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    position: absolute;
+    right: 30%;
+  }
+</style>
