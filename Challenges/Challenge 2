@@ -1,0 +1,105 @@
+<div id="flex-container">
+    <div id="square">
+         <div class="eye-triangle"
+           id="left-eye">
+        </div>
+        <div class="eye-triangle"
+          id="right-eye">
+        </div>
+        <div class="jaw-triangle"
+          id="left-jaw">
+        </div>
+        <div class="jaw-triangle"
+          id="right-jaw">
+        </div>
+        <div class="ear-triangle"
+          id="left-ear">
+        </div>
+        <div class="ear-triangle"
+          id="left-ear-2">
+        </div>
+        <div class="ear-triangle"
+          id="right-ear">
+        </div>
+        <div class="ear-triangle"
+          id="right-ear-2">
+        </div>
+        <div id="forehead-square">
+        </div>
+    </div>
+</div>
+<style>
+  body {
+    background: #edaf38;
+  }
+  #flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+  }
+  #square {
+    width: 36%;
+    height: 66%;
+    background: #feffcd;
+    position: relative;
+  }
+  .eye-triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 31px solid #edaf38;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+  }
+  #left-eye {
+    top: 39%;
+    left: 25%;
+  }
+  #right-eye {
+    top: 39%;
+    right: 25%;
+  }
+  .jaw-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #edaf38;
+    position: absolute;
+    bottom: 0%;
+  }
+  #left-jaw {
+    border-right: 68px solid transparent;
+  }
+  #right-jaw {
+    border-left: 68px solid transparent;
+    right: 0%;
+  }
+  .ear-triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 48px solid #edaf38;
+  }
+  #left-ear {
+    border-right: 25px solid transparent;
+  }
+  #left-ear-2 {
+    border-right: 25px solid transparent;
+    right: 18%;
+  }
+  #right-ear {
+    border-left: 25px solid transparent;
+    right: 0%;
+  }
+   #right-ear-2 {
+    border-left: 25px solid transparent;
+    left: 18%;
+  }
+  #forehead-square {
+    height: 47px;
+    width: 39px;
+    background: #edaf38;
+    position: absolute;
+    left: 36%;
+  }
+</style>
